@@ -1,0 +1,116 @@
+.section-societies {
+
+  .section-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .section-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .societies-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 30px;
+      margin-top: 30px;
+
+      .society {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+          width: 180px;
+          height: 180px;
+          border: 3px solid #e9e9e9;
+          transition: all ease-in-out 0.2s;
+        }
+
+        span {
+          width: auto;
+          font-weight: 500;
+          font-size: 1.4rem;
+          margin-top: 10px;
+        }
+
+        &:hover {
+
+          img {
+            border: 3px solid #539dfe;
+            transition: all ease-in-out 0.2s;
+          }
+        }
+      }
+    }
+
+    .underline {
+      font-weight: 400;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 95%;
+        left: 0;
+        border-bottom: 3px solid #e0575d;
+      }
+    }
+  }
+
+  @media only screen and (max-width : 768px) {
+    height: auto !important;
+
+    .section-content {
+      padding-bottom: 60px;
+
+      .societies-container {
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+        justify-items: center;
+
+        .society {
+          width: 80%;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+          span {
+            font-size: 1.3rem;
+            margin: 3px auto 15px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width : 425px) {
+
+    .section-content {
+      margin-top: -10px;
+
+      .societies-container {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+        .society {
+          width: 80%;
+
+          span {
+            font-size: 1.3rem;
+            margin: 3px auto 8px;
+          }
+        }
+      }
+    }
+  }
+}
