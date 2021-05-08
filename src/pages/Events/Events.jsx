@@ -1,130 +1,112 @@
-import React, { useState, useEffect } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import React, {useEffect } from 'react';
+
 import Fade from 'react-reveal/Fade';
+import Jump from 'react-reveal/Jump';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 
 import { events } from '../../data/events.data';
-import { eventsList } from '../../data/events.data';
+
 
 import Event from './Event.component';
 
 import { ReactComponent as Illustration } from '../../assets/illustrations/event.svg';
 
-import './Events.styles.scss';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Events = () => {
+import './Events.styles.scss';
+import { Button} from 'react-bootstrap';
+
+const Events = ({history}) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const [isListOpen, toggleList] = useState(false);
+  
 
   const mapFreeEvents = (events) =>
-    events.map((event) => (
+    events.map((event,index) => (
       <React.Fragment>
         {event.registrationFee === 'FREE' && (
-          <Event key={event.code} event={event} />
+          <Event key={event.code} event={event} index={index}/>
         )}
       </React.Fragment>
     ));
 
-  const mapPaidEvents = (events) =>
-    events.map((event) => (
-      <React.Fragment>
-        {event.registrationFee !== 'FREE' && (
-          <Event key={event.code} event={event} />
-        )}
-      </React.Fragment>
-    ));
 
   const displayAllFreeEvents = (events) => {
     return (
       <React.Fragment>
-        {mapFreeEvents(events.anon)}
-        {mapFreeEvents(events.enactus)}
-        {mapFreeEvents(events.acm)}
-        {mapFreeEvents(events.das)}
-        {mapFreeEvents(events.edc)}
-        {mapFreeEvents(events.aura)}
-        {mapFreeEvents(events.isa)}
-        {mapFreeEvents(events.aagaaz)}
-        {mapFreeEvents(events.bvpcsi)}
+        {mapFreeEvents(events.hackTheCrisis)}
+        
       </React.Fragment>
     );
   };
 
-  const displayAllPaidEvents = (events) => {
-    return (
-      <React.Fragment>
-        {mapPaidEvents(events.anon)}
-        {mapPaidEvents(events.enactus)}
-        {mapPaidEvents(events.das)}
-        {mapPaidEvents(events.acm)}
-        {mapPaidEvents(events.edc)}
-        {mapPaidEvents(events.aura)}
-        {mapPaidEvents(events.isa)}
-        {mapPaidEvents(events.aagaaz)}
-        {mapPaidEvents(events.bvpcsi)}
-      </React.Fragment>
-    );
-  };
+ 
+
+  // const searchBar=()=>{
+  //   return(
+  //     <Fade bottom delay={150}>
+  //     <div
+  //       className={`events-list ${isListOpen ? 'open' : ''}`}
+  //       onClick={() => toggleList(!isListOpen)}
+  //     >
+  //       <div className='title'>List of Events</div>
+  //       <div className='list'>
+  //         <ul>
+  //           {eventsList.map((event, i) => (
+  //             <li key={i}>
+  //               <AnchorLink offset='620' href={`#${event.code}`}>
+  //                 {event.name}
+  //               </AnchorLink>
+  //             </li>
+  //           ))}
+  //         </ul>
+  //       </div>
+  //     </div>
+  //   </Fade>
+  //   );
+  // }
+
+  const clickHandler=()=>{
+    history.push('/event/hack-the-crisis');
+  }
 
   return (
     <React.Fragment>
-      <section id='events' className='section section-events'>
-        <Fade bottom>
-          <h1 className='section-heading'>Events</h1>
+      <section id='events' className='section section-events' >
+        <Fade top>
+          <Jumbotron style={{backgroundColor:'#212121', color:'#fff',textAlign:'center',marginTop:'50px', padding:'10px'}} fluid={true}>
+            <h1>HackTheCrisis</h1>
+            <p>The hackathon - &quot;HacktheCrisis&quot; - is being organized in collaboration with the students&#39; chapter of Team ISTE from various colleges across the nation to solicit suggestions for containing the spread of coronavirus and developing strategies to cope with its aftermath</p>
+                <p>The participating teams will be working to formulate solutions for various problem statements</p>
+                <Button 
+                onClick={()=>clickHandler()} 
+                style={{backgroundColor:'#0d7377',color:'#ffff',borderColor:'#14ffec',borderRadius:'25px'}}
+                >
+                  Know More
+                </Button>
+          </Jumbotron>
         </Fade>
 
         <div className='section-content'>
-          <Fade bottom delay={150}>
-            <div
-              className={`events-list ${isListOpen ? 'open' : ''}`}
-              onClick={() => toggleList(!isListOpen)}
-            >
-              <div className='title'>List of Events</div>
-              <div className='list'>
-                <ul>
-                  {eventsList.map((event, i) => (
-                    <li key={i}>
-                      <AnchorLink offset='620' href={`#${event.code}`}>
-                        {event.name}
-                      </AnchorLink>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </Fade>
-          <Fade bottom delay={100}>
+       
+          <Jump forever>
             <h2 className='section-sub-heading'>
               <FontAwesomeIcon
                 icon={faAngleDoubleDown}
                 className='icon arrow-down'
               />
-              Free Events
+              Other Events
               <FontAwesomeIcon
                 icon={faAngleDoubleDown}
                 className='icon arrow-down'
               />
             </h2>
-          </Fade>
+          </Jump>
           {displayAllFreeEvents(events)}
-          <Fade bottom delay={100}>
-            <h2 className='section-sub-heading'>
-              <FontAwesomeIcon
-                icon={faAngleDoubleDown}
-                className='icon arrow-down'
-              />
-              Paid Events
-              <FontAwesomeIcon
-                icon={faAngleDoubleDown}
-                className='icon arrow-down'
-              />
-            </h2>
-          </Fade>
-          {displayAllPaidEvents(events)}
         </div>
 
         <div className='illustration-container'>

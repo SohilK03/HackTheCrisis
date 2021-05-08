@@ -1,18 +1,18 @@
 <svg viewBox="0 0 240 85" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d)">
-<circle cx="31" cy="47.56" r="26" stroke="#E89269" stroke-width="6"/>
+<circle cx="31" cy="47.56" r="26" stroke="#0d7377" stroke-width="6"/>
 </g>
 <g filter="url(#filter1_d)">
-<circle cx="99.8267" cy="18.1733" r="12.6733" stroke="#E89269" stroke-width="11"/>
+<circle cx="99.8267" cy="18.1733" r="12.6733" stroke="#0d7377" stroke-width="11"/>
 </g>
 <g filter="url(#filter2_d)">
-<circle cx="157.827" cy="46.7867" r="16.1733" stroke="#E89269" stroke-width="4"/>
+<circle cx="157.827" cy="46.7867" r="16.1733" stroke="#0d7377" stroke-width="4"/>
 </g>
 <g filter="url(#filter3_d)">
-<circle cx="215.827" cy="29.7733" r="18.1733" fill="#E89269"/>
-<circle cx="215.827" cy="29.7733" r="15.1733" stroke="#E89269" stroke-width="6"/>
+<circle cx="215.827" cy="29.7733" r="18.1733" fill="#0d7377"/>
+<circle cx="215.827" cy="29.7733" r="15.1733" stroke="#0d7377" stroke-width="6"/>
 </g>
-<circle cx="157.827" cy="46.7867" r="9.98667" stroke="#E89269" stroke-width="4"/>
+<circle cx="157.827" cy="46.7867" r="9.98667" stroke="#0d7377" stroke-width="4"/>
 <defs>
 <filter id="filter0_d" x="0" y="18.56" width="66" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
