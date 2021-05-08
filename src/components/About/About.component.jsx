@@ -3,11 +3,14 @@ import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
 import { ReactComponent as Image } from '../../assets/about-section/icon-pack.svg';
-
+import placeholder from "../../assets/about-section/placeholder.svg"
+import placeholder_2 from "../../assets/about-section/placeholder_2.svg"
 import './About.styles.scss';
 
 const AboutUs = () => (
   <section id='about' className='section section-about'>
+    <img className='placeholder' src={placeholder}/>
+    <img className='placeholder_2' src={placeholder_2}/>
     <Fade bottom delay={100}>
       <h1 className='section-heading'>About</h1>
     </Fade>
@@ -25,7 +28,7 @@ const AboutUs = () => (
       </div>
       <div className='image-container'>
         <Zoom delay={200}>
-          <Image className='image' />
+          {/* <Image className='image' /> */}
         </Zoom>
       </div>
     </div>

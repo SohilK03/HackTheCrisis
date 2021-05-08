@@ -8,7 +8,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import SideDrawer from '../SideDrawer/SideDrawer.component';
 import Backdrop from '../Backdrop/Backdrop.component';
 
-import logo from '../../assets/encore-logo/Logo1A-NoBG.png';
+import logo from '../../assets/encore-logo/logo.svg';
 
 import './Header.styles.scss';
 
@@ -86,7 +86,8 @@ class Header extends React.Component {
             alt='logo'
             className='logo'
             onClick={this.scrollToTop}
-          />
+          /> 
+         <h3> <span class='inverted'>HACK</span> THE <span class='inverted'>CRISIS</span></h3>
         </div>
 
         <div className='options'>{this.headerOptions('option')}</div>
