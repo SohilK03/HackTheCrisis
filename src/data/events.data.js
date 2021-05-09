@@ -74,30 +74,57 @@ export const eventsList = [
 ];
 
 export const events = {
-  enactus: [
+  hackTheCrisis: [
     {
-      code: 'enactus-1',
-      name: 'Case-Vista',
-      date: '4th October',
-      team: '3-5 members',
-      prize: <>{Rs()} 2000</>,
+      code: 'hack-1',
+      name: 'Cryptic Hunt',
+      date: 'Please Replace this',
+      team: '1 member',
+      prize: <>{Rs()} Please change this</>,
       registrationFee: 'FREE',
-      organisingSociety: 'Enactus',
+      organisingSociety: null,
       registrationLink:
         'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
       poster: require('../assets/events/case-vista.jpeg'),
       description: (
         <p>
-          Enactus BVCOE is planning to conduct a 'Case-Vista', wherein students
-          of various colleges and other Enactus teams can showcase their
-          analytical skills and entrepreneurial abilities. The case study will
-          entail a real-life situation, the solutions of which shall be
-          presented by the different teams. The preliminary round will help us
-          find the best teams, who will then be judged based on their skills in
-          the second round.
+          The fun of searching for clues, locating the target, and aiming for the ultimate treasure surely
+sends an adrenaline rush down the spine. With almost more than 3 lakh COVID positive cases
+on average at present and an exponentially growing graph for new cases, it is not a good idea
+to step outside and fulfill these exciting desires.
+Well to test Sherlock in you, ISTE teams from all around the country have collaborated to weave
+the most mysterious maze. Presenting to you &lt;name of cryptic hunt&gt;.
+A cryptic hunt where all your skills will be put to test to solve the current COVID crisis and to
+extract the most efficient and rational solutions to the various challenges in this country. From
+the second wave to the world’s biggest lockdown we’ve seen it all, the virus has brought many
+challenges- individual as well as communal. Now to solve these challenges you will be surfed
+through every classified URL, every sneaky interface where you will encounter various mind-
+twisting COVID crisis puzzles.
         </p>
       )
-    }
+    },
+    {
+      code: 'hack-2',
+      name: 'Health Talk',
+      date: 'Please Replace this',
+      team: '1 member',
+      prize: <>{Rs()} Please change this</>,
+      registrationFee: 'FREE',
+      organisingSociety: null,
+      registrationLink:
+        'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
+      poster: require('../assets/events/case-vista.jpeg'),
+      description: (
+        <p>
+          Quarantine, in particular, and its impact on many people&#39;s normal activities, habits, or livelihood
+are forcing them into a bleak world of isolation, depression, unhealthy alcohol and drug use, and
+learning to cope with the stress and anxiety it has caused; ISTE is hosting a discussion on
+mental health under the direction of Dr. anonymous on this subject in order to help you become
+mentally fit and healthy, allowing you to handle emotionally stressful circumstances with ease.
+        </p>
+      )
+    },
+    
   ],
   das: [
     {

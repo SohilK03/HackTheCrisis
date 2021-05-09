@@ -8,16 +8,21 @@
   padding: 0 5%;
   margin-bottom: 100px;
 
+  li{
+    list-style: none;
+  }
+
   .section-heading {
     text-align: center;
     font-size: 2.8rem;
     padding-top: 40px;
     margin: 0 0 60px;
+    color: #323232;
   }
 
   .section-sub-heading {
     font-size: 1.8rem;
-    color: darken(#539dfe, 10%);
+    color:#0d7377;
     margin: 70px auto 50px;
 
     .icon.arrow-down {
@@ -148,8 +153,8 @@
           }
 
           .register-link {
-            background-color: darken(#539dfe, 5%);
-            border: 3px solid darken(#539dfe, 10%);
+            background-color:#0d7377;
+            border: 3px solid #14ffec;
             border-radius: 25px;
             font-size: 0.85rem;
             font-weight: 400;
@@ -420,4 +425,15 @@
       }
     }
   }
+}
+
+
+
+.section-hero {
+
+  min-height: 50vh;
+  width: 95vw;
+  background-color: #212121; 
+  color: white;
+  text-align: center;
 }

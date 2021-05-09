@@ -22,6 +22,7 @@ import Footer from './components/Footer/Footer.component';
 import './index.css';
 
 import smoothscroll from 'smoothscroll-polyfill';
+import { HackTheCrisis } from './pages/Events/HackTheCrisis';
 smoothscroll.polyfill();
 
 ReactGA.initialize('UA-177141157-1');
@@ -32,6 +33,7 @@ const Root = () => (
     <Switch>
       <Route exact path='/' component={Home} />
       <Route path='/events' component={Events} />
+      <Route path='/event/hack-the-crisis' component={HackTheCrisis}/>
       <Route path='/partners' component={Partners} />
       <Route path='/faq' component={FAQs} />
       <Route path='/team' component={Team} />

@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import { ReactComponent as Divider } from '../../assets/illustrations/section-divider.svg';
 
-const Event = ({ event }) => {
+const Event = ({ event,index }) => {
   const {
     code,
     name,
@@ -31,11 +31,17 @@ const Event = ({ event }) => {
   return (
     <React.Fragment>
       <div id={code} className={`event-container ${code}`}>
-        <Fade delay={250}>
+        {
+        index%2===0 ?
+         <Fade delay={250}>
           <div className='poster'>
             <img src={poster} alt='poster' />
           </div>
-        </Fade>
+        </Fade> 
+        : 
+        <></>
+        }
+        
         <div className='info'>
           <Fade bottom delay={200}>
             <h2 className='event-name'>{name}</h2>
@@ -93,6 +99,16 @@ const Event = ({ event }) => {
             </p>
           </Fade>
         </div>
+        {
+        index%2!==0 ?
+         <Fade delay={250}>
+          <div className='poster'>
+            <img src={poster} alt='poster' />
+          </div>
+        </Fade> 
+        : 
+        <></>
+        }
       </div>
 
       <Fade delay={150}>

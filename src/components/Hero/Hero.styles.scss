@@ -1,4 +1,5 @@
 .section-hero {
+  width: auto !important;
   height: 760px !important;
   display: flex;
   flex-direction: column;
@@ -17,8 +18,8 @@
     }
 
     video {
-      height: auto;
-      width: 95vw;
+      height: 760px;
+      width: auto !important;
       margin: unset;
     }
   }
