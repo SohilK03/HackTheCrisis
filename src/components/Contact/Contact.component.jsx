@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
 
-import { ReactComponent as Image } from '../../assets/illustrations/contact.svg';
+import { ReactComponent as Image } from '../../assets/illustrations/contact_2.svg';
 
 import './Contact.styles.scss';
 

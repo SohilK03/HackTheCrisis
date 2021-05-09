@@ -1,25 +1,28 @@
 .section-contact {
   height: 700px !important;
-  color: #111;
+  color: #fff !important;
   padding: 0 5%;
-  background-color: #e9e9e9;
+  background-color: #212121 !important;
 
   .section-heading {
     text-align: center;
     font-size: 2.8rem;
     padding-top: 40px;
     margin-top: 0;
+    color: #14ffec;
   }
 
   .section-content {
-
+    a {
+      color:#fff;
+    }
     .info {
       width: 650px;
       margin-top: 45px;
 
       h2 {
         font-size: 1.6rem;
-        color: #539dfe;
+        color: #14ffec !important;
         font-weight: bold;
       }
 
@@ -35,12 +38,13 @@
         margin-top: 55px;
 
         a {
+          color: #fff !important;
           width: 150px;
-          font-family: 'Poppins', sans-serif;
+          font-family: "Poppins", sans-serif;
           font-size: 1.24rem;
           line-height: 1.55;
           padding: 7px 12px;
-          border: 2px solid black;
+          border: 2px solid #14ffec;
           border-radius: 40px;
           cursor: pointer;
 
@@ -49,8 +53,8 @@
           }
 
           &:hover {
-            background-color: black;
-            color: white;
+            background-color: #14ffec;
+            color: #212121 !important;
           }
         }
       }
@@ -60,12 +64,12 @@
         position: relative;
 
         &:after {
-          content: '';
+          content: "";
           position: absolute;
           width: 100%;
           top: 95%;
           left: 0;
-          border-bottom: 3px solid #e0575d;
+          border-bottom: 3px solid #0d7377;
         }
       }
     }
@@ -83,7 +87,7 @@
     }
   }
 
-  @media only screen and (max-width : 768px) {
+  @media only screen and (max-width: 768px) {
     height: auto !important;
 
     .section-content {
@@ -115,7 +119,6 @@
       }
 
       .image-container {
-
         .illustration {
           width: 550px;
         }
@@ -123,8 +126,7 @@
     }
   }
 
-  @media only screen and (max-width : 425px) {
-
+  @media only screen and (max-width: 425px) {
     .section-content {
       padding-bottom: 20px;
 
@@ -145,7 +147,6 @@
       }
 
       .image-container {
-
         .illustration {
           width: 100%;
         }
