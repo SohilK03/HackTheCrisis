@@ -70,7 +70,7 @@ export const TeamData = {
       name: 'Swathy Suresh',
       position: 'Social Media',
       linkedInURL: 'https://linkedin.com/in/swathy-suresh-434460190',
-      instagramURL: 'https://instagram.com/dakshkhetan',
+      instagramURL: 'https://instagram.com/swathy_ammu_',
      
       displayPicSrc: require('../assets/team/swathy.jpg')
     },
