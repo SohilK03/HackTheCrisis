@@ -6,8 +6,8 @@ import Person from '../Person/Person.component';
 
 import { TeamData } from '../../data/team.data';
 
-import { ReactComponent as Illustration } from '../../assets/illustrations/team.svg';
-import placeholder from "../../assets/about-section/placeholder.svg"
+// import { ReactComponent as Illustration } from '../../assets/illustrations/team.svg';
+// import placeholder from "../../assets/about-section/placeholder.svg"
 import placeholder_2 from "../../assets/about-section/placeholder_2.svg"
 import './Team.styles.scss';
 
@@ -18,8 +18,8 @@ const Team = () => {
   
   return (
     <section id='team' className='section section-team'>
-      <img className='placeholder' src={placeholder_2}/>
-    <img className='placeholder_2' src={placeholder_2}/>
+      <img className='placeholder' alt={'pb'} src={placeholder_2}/>
+    <img className='placeholder_2' alt={'pb2'} src={placeholder_2}/>
       <Fade bottom>
         <h1 className='section-heading'>Meet The Team</h1>
         <div className='section-content'>

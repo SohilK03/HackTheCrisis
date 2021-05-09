@@ -4,8 +4,8 @@ import { animateScroll as scroll } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import {
-  faTwitter,
-  faFacebook,
+  // faTwitter,
+  // faFacebook,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
 
