@@ -43,6 +43,7 @@
         grid-column: 1/-1;
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
       }
 
       .partner-image {
