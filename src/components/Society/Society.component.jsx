@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 import { societies } from '../../data/societies.data';
-import { events } from '../../data/events.data';
+//import { events } from '../../data/events.data';
 
 import './Society.styles.scss';
 

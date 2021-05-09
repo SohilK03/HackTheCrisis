@@ -4,7 +4,7 @@ import ReactGA from 'react-ga';
 import Hero from '../../components/Hero/Hero.component';
 import About from '../../components/About/About.component';
 import Societies from '../../components/Societies/Societies.component';
-import Events from '../../components/Events/Events.component';
+// import Events from '../../components/Events/Events.component';
 import Partners from '../../components/Partners/Partners.component';
 import FAQs from '../../components/FAQs/FAQs.component';
 import Team from '../../components/Team/Team.component';
@@ -23,7 +23,7 @@ const Home = () => {
       <Hero />
       <About />
       <Societies />
-      <Events />
+      {/* <Events /> */}
       <Partners />
       <FAQs />
       <Team />

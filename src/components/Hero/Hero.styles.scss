@@ -1,16 +1,17 @@
 .section-hero {
+  // background-color: white !important;
   width: auto !important;
   height: 760px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+overflow-x: hidden;
   .logo-container {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
 
     img {
       height: 100%;
@@ -18,9 +19,11 @@
     }
 
     video {
+      transform: scale(1.27);
       height: 760px;
       width: auto !important;
       margin: unset;
+  overflow-x: hidden;
     }
   }
 

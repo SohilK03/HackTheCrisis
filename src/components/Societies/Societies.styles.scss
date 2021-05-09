@@ -1,7 +1,11 @@
 .section-societies {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
 
+=======
+  height: auto !important;
+>>>>>>> a88b6d394b242a61a054fbf70f1b34892e779d42
   .section-heading {
     text-align: center;
     font-size: 2.8rem;
@@ -80,7 +84,7 @@
       color: #323232;
 
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         width: 100%;
         top: 95%;
