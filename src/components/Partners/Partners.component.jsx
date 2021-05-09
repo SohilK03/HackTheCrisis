@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { animateScroll as scroll } from 'react-scroll';
 
-import { partners } from '../../data/partners.data';
+import { partners, PARTNER_TYPE } from '../../data/partners.data';
 
 import './Partners.styles.scss';
 
@@ -22,19 +22,27 @@ const Partners = ({ history }) => {
         <h1 className='section-heading'>Partners</h1>
       </Fade>
       <div className='section-content'>
-        <div className='partners-container'>
-          {partners.map((partner) => (
-            <div
-              key={partner.key}
-              className='partner-image'
-              onClick={() => onClickHandler(partner.route)}
-            >
-              <Fade bottom delay={200}>
-                <img src={partner.image} alt='partner' />
-              </Fade>
+        {PARTNER_TYPE.map((type) => (
+          <div className={`${type}-container partner-container`}>
+            <h2 className='heading'>{type.toUpperCase()} SPONSERS</h2>
+            {console.log(type)}
+            <div className='partners-container'>
+              {partners
+                .filter((partner) => partner.type === type)
+                .map((partner) => (
+                  <div
+                    key={partner.key}
+                    className='partner-image'
+                    onClick={() => onClickHandler(partner.route)}
+                  >
+                    <Fade bottom delay={200}>
+                      <img src={partner.image} alt='partner' />
+                    </Fade>
+                  </div>
+                ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );

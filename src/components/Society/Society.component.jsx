@@ -11,24 +11,32 @@ import { events } from '../../data/events.data';
 
 import './Society.styles.scss';
 
-const Society = ({ match }) => {
+const Society = (props) => {
+  console.log(props);
+
   useEffect(() => {
     scroll.scrollToTop();
   }, []);
 
-  const index = societies.findIndex(
-    (society) => society.name.toLowerCase() === match.params.societyName
-  );
+  const index = societies.findIndex((society) => {
+    console.log(
+      society.name.toLowerCase(),
+      props.match.params.societyName,
+      society.name.toLowerCase() === props.match.params.societyName
+    );
+    return society.name.toLowerCase() === props.match.params.societyName;
+  });
 
+  console.log(index);
   let society = null;
 
   if (index === -1) {
     return <Redirect to='/' />;
   } else {
     society = societies[index];
-    society.events = events[society.name.toLowerCase()].map(
-      (events) => events.name
-    );
+    // society.events = events[society.name.toLowerCase()].map(
+    //   (events) => events.name
+    // );
   }
 
   const scrollWithOffset = (el, offset) => {
@@ -58,7 +66,7 @@ const Society = ({ match }) => {
           <Fade bottom delay={200}>
             <div className='intro'>{society.description}</div>
           </Fade>
-          <div className='events'>
+          {/* <div className='events'>
             <Fade bottom delay={450}>
               <h2>Events:</h2>
             </Fade>
@@ -73,7 +81,7 @@ const Society = ({ match }) => {
                 </ul>
               </Fade>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

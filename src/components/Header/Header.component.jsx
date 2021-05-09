@@ -14,7 +14,7 @@ import './Header.styles.scss';
 
 class Header extends React.Component {
   state = {
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
   };
 
   scrollToTop = () => {
@@ -26,7 +26,7 @@ class Header extends React.Component {
 
   openSideDrawer = () => {
     this.setState((prevState) => ({
-      sideDrawerOpen: !prevState.sideDrawerOpen
+      sideDrawerOpen: !prevState.sideDrawerOpen,
     }));
   };
 
@@ -86,8 +86,12 @@ class Header extends React.Component {
             alt='logo'
             className='logo'
             onClick={this.scrollToTop}
-          /> 
-         <h3> <span class='inverted'>HACK</span> THE <span class='inverted'>CRISIS</span></h3>
+          />
+          <h3>
+            {' '}
+            <span className='inverted'>HACK</span> THE{' '}
+            <span className='inverted'>CRISIS</span>
+          </h3>
         </div>
 
         <div className='options'>{this.headerOptions('option')}</div>

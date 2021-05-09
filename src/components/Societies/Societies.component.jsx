@@ -11,6 +11,8 @@ const Societies = ({ history }) => {
     history.push(`/society/${society.name.toLowerCase()}`);
   };
 
+  console.log(history);
+
   return (
     <section id='societies' className='section section-societies'>
       <Fade bottom>
@@ -22,7 +24,9 @@ const Societies = ({ history }) => {
             <div
               key={society.key}
               className='society'
-              onClick={() => onClickHandler(society)}
+              onClick={() => {
+                onClickHandler(society);
+              }}
             >
               <Fade bottom delay={200}>
                 <img src={society.logo} alt='society' />
