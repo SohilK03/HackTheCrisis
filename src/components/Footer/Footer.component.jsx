@@ -15,53 +15,53 @@ const Footer = () => {
   const onClickHandler = () => {
     ReactGA.event({
       category: "'External Link' Clicks",
-      action: "Daksh's website opened",
+      action: "ISTE's website opened",
       label: 'Website opened from footer credits link'
     });
-    window.open('https://dakshkhetan.now.sh', '_blank');
+    window.open('http://www.bvpiste.tech/', '_blank');
   };
 
   return (
     <section id='footer' className='footer'>
       <div className='social-icons'>
-        <a
+        {/* <a
           href='https://twitter.com/BvpEncore'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
         >
           <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
-        </a>
+        </a> */}
         <a
-          href='https://www.instagram.com/encore.bvp'
+          href='https://www.instagram.com/hack_the_crisis_/'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
         >
           <FontAwesomeIcon icon={faInstagram} className='icon instagram' />
         </a>
-        <a
+        {/* <a
           href='https://www.facebook.com/encorebvp'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
         >
           <FontAwesomeIcon icon={faFacebook} className='icon facebook' />
-        </a>
+        </a> */}
       </div>
 
       <div className='arrow-container' onClick={() => scroll.scrollToTop()}>
         <FontAwesomeIcon icon={faArrowUp} className='arrow' />
       </div>
 
-      <h1 className='heading'>COPYRIGHT © 2020</h1>
+      <h1 className='heading'>COPYRIGHT © 2021</h1>
       <p className='sub-heading'>
-        Powered by <a href='http://encore-fest.now.sh/'>BVP Encore</a>. All
+        Powered by <a href='http://encore-fest.now.sh/'>Hack The Crisis</a>. All
         rights reserved.
       </p>
       <span className='sub-heading credit' onClick={onClickHandler}>
         Designed & developed by{' '}
-        <span className='credit-link underline'>Daksh Khetan</span>
+        <span className='credit-link underline'>ISTE</span>
       </span>
     </section>
   );

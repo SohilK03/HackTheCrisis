@@ -1,4 +1,5 @@
 .section-societies {
+  height: auto !important;
   .section-heading {
     text-align: center;
     font-size: 2.8rem;
@@ -61,7 +62,7 @@
       color: #323232;
 
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         width: 100%;
         top: 95%;

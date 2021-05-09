@@ -1,76 +1,78 @@
 export const TeamData = {
   members: [
     {
-      key: '1',
-      name: 'Akshat Jain',
-      position: 'Fest Coordinator',
-      linkedInURL: 'https://linkedin.com/in/akshat-jain-019740170',
-      instagramURL: 'https://instagram.com/akijain2000',
-      twitterURL: 'https://twitter.com/akijain2000',
-      displayPicSrc: require('../assets/team/akshat.jpeg')
+      key: "1",
+      name: "Eeshita Gupta",
+      position: "Fest Coordinator",
+      linkedInURL: "https://www.linkedin.com/in/eeshita-gupta-6b072a171/",
+      instagramURL: "https://instagram.com/eeshita_gupta19",
+
+      displayPicSrc: require("../assets/team/eeshita.jpeg"),
     },
     {
-      key: '2',
-      name: 'Pulkit Sharma',
-      position: 'Fest Coordinator',
-      linkedInURL: 'https://linkedin.com/in/pulkitsharma153',
-      instagramURL: 'https://instagram.com/pukki.sharma',
-      twitterURL: '',
-      displayPicSrc: require('../assets/team/pulkit.jpeg')
+      key: "8",
+      name: "Keshav Goyal",
+      position: "Fest Coordinator",
+      linkedInURL: "https://linkedin.com/in/keshav-goyal-768302174",
+      instagramURL: "https://instagram.com/_keshav_goyal",
+      twitterURL: "",
+      displayPicSrc: require("../assets/team/keshav.jpeg"),
+    },
+
+  
+
+    {
+      key: "7",
+      name: "Sohil Khattar",
+      position: "Tech Head",
+      linkedInURL: "https://www.linkedin.com/in/sohil-khattar-444663113/",
+      instagramURL: "https://instagram.com/codepresso_",
+      twitterURL: "",
+      displayPicSrc: require("../assets/team/sohil.png"),
     },
     {
+      key: "5",
+      name: "Ali Raza",
+      position: "Sponsorships",
+      linkedInURL: "https://linkedin.com/in/ali-raza-bb196118b",
+      instagramURL: "https://instagram.com/ali_razaa92",
+      twitterURL: "",
+      displayPicSrc: require("../assets/team/ali.jpg"),
+    },
+    {
+      key: "6",
+      name: "Pranav Kulkarni",
+      position: "Design Head",
+      linkedInURL: "https://linkedin.com/in/pranav-kulkarni",
+      instagramURL: "https://instagram.com/not_pk201",
+
+      displayPicSrc: require("../assets/team/pranav.jpeg"),
+    },
+    {
+      key: "4",
+      name: "Vasundra Thakur",
+      position: "Documentation",
+      linkedInURL: "https://linkedin.com/in/vasundhra-thakur-5b9023196/",
+      instagramURL: "https://instagram.com/t.vasundhra/",
+      displayPicSrc: require("../assets/team/vasundra.jpeg"),
+    },
+    {
+      key: "2",
+      name: "Shivam Mahajan",
+      position: "Event Management",
+      linkedInURL: "https://linkedin.com/in/shivam-mahajan-413824196",
+      instagramURL: "https://instagram.com/shivam_117",
+      twitterURL: "",
+      displayPicSrc: require("../assets/team/shivam.jpg"),
+    },
+      {
       key: '3',
-      name: 'Daksh Khetan',
-      position: 'Lead Developer',
-      linkedInURL: 'https://linkedin.com/in/dakshkhetan',
-      instagramURL: 'https://instagram.com/dakshkhetan',
-      twitterURL: 'https://twitter.com/dakshkhetan',
-      displayPicSrc: require('../assets/team/daksh.jpeg')
-    },
-    {
-      key: '4',
-      name: 'Sanjay Singh',
-      position: 'Design Head',
-      linkedInURL: 'https://linkedin.com/in/sanjay-singh-b84aa7137',
-      instagramURL: 'https://instagram.com/oye.sanjay',
-      twitterURL: 'https://twitter.com/oye_sanjaay',
-      displayPicSrc: require('../assets/team/sanjay.jpeg')
-    },
-    {
-      key: '5',
-      name: 'Mishael Thomas',
-      position: 'Event Management',
-      linkedInURL: 'https://linkedin.com/in/mishaelthomas1482',
-      instagramURL: 'https://instagram.com/mishael1482',
-      twitterURL: '',
-      displayPicSrc: require('../assets/team/mishael.jpeg')
-    },
-    {
-      key: '6',
-      name: 'Ankita Natarajan',
-      position: 'Documentation',
-      linkedInURL: 'https://linkedin.com/in/ankita-natarajan-aa5079170',
-      instagramURL: 'https://instagram.com/ankita624',
-      twitterURL: 'https://twitter.com/ankitanatarajan',
-      displayPicSrc: require('../assets/team/ankita.jpeg')
-    },
-    {
-      key: '7',
-      name: 'Prerna Arya',
-      position: 'Sponsorship',
-      linkedInURL: 'https://linkedin.com/in/prerna-arya-a1a8a9179',
-      instagramURL: 'https://instagram.com/aryaprerna23',
-      twitterURL: '',
-      displayPicSrc: require('../assets/team/prerna.jpeg')
-    },
-    {
-      key: '8',
-      name: 'Keshav Goyal',
+      name: 'Swathy Suresh',
       position: 'Social Media',
-      linkedInURL: 'https://linkedin.com/in/keshav-goyal-768302174',
-      instagramURL: 'https://instagram.com/_keshav_goyal',
-      twitterURL: '',
-      displayPicSrc: require('../assets/team/keshav.jpeg')
-    }
-  ]
+      linkedInURL: 'https://linkedin.com/in/swathy-suresh-434460190',
+      instagramURL: 'https://instagram.com/dakshkhetan',
+     
+      displayPicSrc: require('../assets/team/swathy.jpg')
+    },
+  ],
 };
