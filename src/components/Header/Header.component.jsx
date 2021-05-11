@@ -8,7 +8,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import SideDrawer from '../SideDrawer/SideDrawer.component';
 import Backdrop from '../Backdrop/Backdrop.component';
 
-import logo from '../../assets/encore-logo/logo.svg';
+import logo from '../../assets/encore-logo/logosvg.svg';
 
 import './Header.styles.scss';
 

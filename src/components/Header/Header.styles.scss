@@ -3,7 +3,7 @@
   width: 100%;
   position: sticky;
   top: 0;
-  background: linear-gradient(to bottom, #0d7377 10%, #14ffec 90%);
+  background: linear-gradient(to bottom, #323232 10%, #212121 90%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,6 +11,7 @@
   padding: 8px 3%;
   z-index: 1000;
   box-shadow: 0 5px 11px #323232;
+  border-top:3px solid #14ffec;
 
   .logo-container {
     display: flex;
@@ -22,13 +23,13 @@
     text-align: center;
 
     .logo {
-      width: 25%;
+      width: 18%;
       cursor: pointer;
     }
     h3 {
       font-size: 2em;
       margin: 0;
-      color: #000;
+      color: #14ffec;
       font-weight: 600;
       .inverted {
         display: inline-block;
@@ -55,7 +56,7 @@
 
     .option {
       font-size: 1.4em;
-      color: #000;
+      color: #fff;
       padding: 10px 15px;
       text-transform: capitalize;
       cursor: pointer;
@@ -92,7 +93,7 @@
         transition: all 0.2s ease-in-out;
         transition-duration: 0.5s;
         opacity: 0;
-        background-color: darken(#0d7377, 5%);
+        background-color: darken(#14ffec, 5%);
       }
 
       &:before {

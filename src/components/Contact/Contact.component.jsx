@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
-import { animateScroll as scroll } from 'react-scroll';
+import React, { useEffect } from "react";
+import Fade from "react-reveal/Fade";
+import { animateScroll as scroll } from "react-scroll";
 
-import { ReactComponent as Image } from '../../assets/illustrations/contact_2.svg';
+import { ReactComponent as Image } from "../../assets/illustrations/contact_2.svg";
 
-import './Contact.styles.scss';
+import "./Contact.styles.scss";
 
 const Contact = () => {
   useEffect(() => {
@@ -13,38 +13,38 @@ const Contact = () => {
 
   return (
     <React.Fragment>
-      <section id='contact' className='section section-contact'>
+      <section id="contact" className="section section-contact">
         <Fade bottom>
-          <h1 className='section-heading'>Contact</h1>
+          <h1 className="section-heading">Contact</h1>
         </Fade>
 
-        <div className='section-content'>
-          <div className='info-container'>
-            <div className='info'>
+        <div className="section-content">
+          <div className="info-container">
+            <div className="info">
               <Fade bottom delay={300}>
-                <p className='text'>For any query, contact: </p>
+                <p className="text">For any query, contact: </p>
               </Fade>
               <Fade bottom delay={400}>
-                <p className='text text-2'>
-                  <span className='underline'>Keshav</span>
+                <p className="text text-2">
+                  <span className="underline">Keshav</span>
                   <br />
-                  <span className='underline'>
-                    <a href='tel:+918470034433'>+91-8745045678</a>
+                  <span className="underline">
+                    <a href="tel:+918470034433">+91-8745045678</a>
                   </span>
                 </p>
               </Fade>
 
               <Fade bottom delay={500}>
-                <div className='mail-btn'>
-                  <a href='mailto:encorebvp@gmail.com'>Write To Us</a>
+                <div className="mail-btn">
+                  <a href="mailto:hackthecrisis2021@gmail.com">Write To Us</a>
                 </div>
               </Fade>
             </div>
           </div>
 
           <Fade delay={100}>
-            <div className='image-container'>
-              <div className='illustration'>
+            <div className="image-container">
+              <div className="illustration">
                 <Image />
               </div>
             </div>

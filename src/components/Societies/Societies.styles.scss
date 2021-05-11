@@ -1,4 +1,5 @@
 .section-societies {
+  background-color: #212121 !important;
   display: flex;
   flex-direction: column;
 
@@ -7,7 +8,7 @@
     font-size: 2.8rem;
     padding-top: 40px;
     margin-top: 0;
-    color: #323232;
+    color: #14ffec;
   }
 
   .section-content {
@@ -80,7 +81,7 @@
       color: #323232;
 
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         width: 100%;
         top: 95%;
