@@ -7,7 +7,7 @@ Start the project locally.
 Fork the repository, then clone the repo locally by running command:
 
 ```sh
-git clone https://github.com/dakshkhetan/bvp-encore-website.git
+git https://github.com/SohilK03/HackTheCrisis.git
 ```
 
 ### Step 2: Install dependencies
@@ -15,7 +15,7 @@ git clone https://github.com/dakshkhetan/bvp-encore-website.git
 cd into the directory:
 
 ```sh
-cd bvp-encore-website
+cd HackTheCrisis
 ```
 
 In the root folder do `yarn` or `npm install` _(depending upon your package manager)_:
