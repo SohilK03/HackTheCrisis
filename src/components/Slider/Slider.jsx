@@ -30,7 +30,7 @@ const AutoPlay = ({ history }) => {
     <div>
       <div className="slider-container">
         <img data-aos='fade-right' src={placeholder} alt="p2" className="placeholder22" />
-        <img data-aos='fade-left' src={placeholder} alt="p2" className="placeholder23" />
+      
         <h2 data-aos='fade-up' className="section-heading2">Collaborating Societies</h2>
         <Slider {...settings}>
           {societies.map((society) => (
