@@ -1,5 +1,5 @@
 .section-hero {
-  // background-color: white !important;
+  background-color: #212121 !important;
   width: auto !important;
   height: 760px !important;
   display: flex;
@@ -19,11 +19,11 @@ overflow-x: hidden;
     }
 
     video {
-      transform: scale(1.27);
+      // transform: scale(1.27);
       height: 760px;
       width: auto !important;
       margin: unset;
-  overflow-x: hidden;
+    
     }
   }
 
@@ -47,7 +47,8 @@ overflow-x: hidden;
       margin-top: -20px;
 
       video {
-        padding: 100px 0;
+        
+        // padding: 100px 0;
       }
     }
   }
@@ -59,7 +60,7 @@ overflow-x: hidden;
       width: 90%;
 
       video {
-        padding: 150px 0;
+        // padding: 150px 0;
       }
     }
 

@@ -19,8 +19,6 @@ export const TeamData = {
       displayPicSrc: require("../assets/team/keshav.jpeg"),
     },
 
-  
-
     {
       key: "7",
       name: "Sohil Khattar",
@@ -65,14 +63,32 @@ export const TeamData = {
       twitterURL: "",
       displayPicSrc: require("../assets/team/shivam.jpg"),
     },
-      {
-      key: '3',
-      name: 'Swathy Suresh',
-      position: 'Social Media',
-      linkedInURL: 'https://linkedin.com/in/swathy-suresh-434460190',
-      instagramURL: 'https://instagram.com/swathy_ammu_',
-     
-      displayPicSrc: require('../assets/team/swathy.jpg')
+    {
+      key: "3",
+      name: "Swathy Suresh",
+      position: "Social Media",
+      linkedInURL: "https://linkedin.com/in/swathy-suresh-434460190",
+      instagramURL: "https://instagram.com/swathy_ammu_",
+
+      displayPicSrc: require("../assets/team/swathy.jpg"),
+    },
+    {
+      key: "9",
+      name: "Jaskirat Singh",
+      position: "Fest Coordinator",
+      linkedInURL: "https://linkedin.com/in/jaskirat-singh-530428207",
+      instagramURL: "https://instagram.com/jaskirat0403",
+
+      displayPicSrc: require("../assets/team/jaskirat.jpg"),
+    },
+    {
+      key: "10",
+      name: "Alwinder Singh",
+      position: "Fest Coordinator",
+      linkedInURL: "https://linkedin.com/in/alwinder-singh-004a6a1b6",
+      instagramURL: "https://instagram.com/alwinder_ali",
+
+      displayPicSrc: require("../assets/team/alwinder.jpg"),
     },
   ],
 };
