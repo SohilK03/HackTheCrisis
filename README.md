@@ -7,7 +7,7 @@ Start the project locally.
 Fork the repository, then clone the repo locally by running command:
 
 ```sh
-git https://github.com/SohilK03/HackTheCrisis.git
+git clone https://github.com/SohilK03/HackTheCrisis.git
 ```
 
 ### Step 2: Install dependencies
