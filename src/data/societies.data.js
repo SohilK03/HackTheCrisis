@@ -77,7 +77,7 @@ export const societies = [
   {
     key: '5',
     name: 'ISTE-MANIPAL',
-    logo: require('../assets/societies/manipal-iste.jpg'),
+    logo: require('../assets/societies/manipal-iste.jpg.png'),
     description: (
       <Fade bottom delay={100}>
         <p>
