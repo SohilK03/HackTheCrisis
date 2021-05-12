@@ -1,4 +1,5 @@
 .section-hero {
+  padding: 0 !important;
   background-color: #212121 !important;
   width: auto !important;
   height: 760px !important;
@@ -21,14 +22,14 @@ overflow-x: hidden;
     video {
       // transform: scale(1.27);
       height: 760px;
-      width: auto !important;
+      width: 100% !important;
       margin: unset;
     
     }
   }
 
   .hero-heading {
-    padding: 5px !important;
+    // padding: 5px !important;
     font-size: 2.3rem !important;
   }
 
