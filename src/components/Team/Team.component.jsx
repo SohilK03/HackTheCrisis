@@ -5,7 +5,7 @@ import { animateScroll as scroll } from "react-scroll";
 import Person from "../Person/Person.component";
 
 import { TeamData } from "../../data/team.data";
-import bg from "../../assets/team/Asset 1.svg";
+// import bg from "../../assets/team/Asset 1.svg";
 // import { ReactComponent as Illustration } from '../../assets/illustrations/team.svg';
 // import placeholder from "../../assets/about-section/placeholder.svg"
 import placeholder_2 from "../../assets/about-section/placeholder_2.svg";
@@ -17,15 +17,7 @@ const Team = () => {
   }, []);
 
   return (
-    <section
-      id="team"
-      className="section section-team"
-      style={{
-        background: `url(${bg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "right bottom",
-      }}
-    >
+    <section id="team" className="section section-team">
       {/* <img className='placeholder' alt={'pb'} src={placeholder_2}/> */}
       <img className="placeholder_2" alt={"pb2"} src={placeholder_2} />
       <Fade bottom>
