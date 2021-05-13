@@ -77,43 +77,33 @@ export const events = {
   hackTheCrisis: [
     {
       code: 'hack-1',
-      name: 'Cryptic Hunt',
-      date: 'Please Replace this',
-      team: '1 member',
-      prize: <>{Rs()} Please change this</>,
+      name: 'Sci-Pher Hunt',
+      date: '20th May, 2021',
+      team: '2-4 Members',
+      //  prize: <>{Rs()} Please change this</>,
       registrationFee: 'FREE',
       organisingSociety: null,
       registrationLink:
         'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
-      poster: require('../assets/events/case-vista.jpeg'),
+      poster: require('../assets/events/ScipherHunt-left.png'),
       description: (
         <p>
-          The fun of searching for clues, locating the target, and aiming for the ultimate treasure surely
-sends an adrenaline rush down the spine. With almost more than 3 lakh COVID positive cases
-on average at present and an exponentially growing graph for new cases, it is not a good idea
-to step outside and fulfill these exciting desires.
-Well to test Sherlock in you, ISTE teams from all around the country have collaborated to weave
-the most mysterious maze. Presenting to you &lt;name of cryptic hunt&gt;.
-A cryptic hunt where all your skills will be put to test to solve the current COVID crisis and to
-extract the most efficient and rational solutions to the various challenges in this country. From
-the second wave to the world’s biggest lockdown we’ve seen it all, the virus has brought many
-challenges- individual as well as communal. Now to solve these challenges you will be surfed
-through every classified URL, every sneaky interface where you will encounter various mind-
-twisting COVID crisis puzzles.
+         In a test of your sharpness, this quirky yet interesting challenge will test your awareness and get you to think on your feet. You will go through a series of decoding and answering questions at different levels, before moving on to the next stage. You don’t need any prior subject knowledge for this event, just make sure you brush up on those problem solving skills! So buckle up for this brain tickling rollercoaster ride.
+
         </p>
       )
     },
     {
       code: 'hack-2',
-      name: 'Health Talk',
-      date: 'Please Replace this',
+      name: 'Mental Health Talks',
+      date: '26th May, 2019',
       team: '1 member',
-      prize: <>{Rs()} Please change this</>,
+      //prize: <>{Rs()} Please change this</>,
       registrationFee: 'FREE',
       organisingSociety: null,
       registrationLink:
         'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
-      poster: require('../assets/events/case-vista.jpeg'),
+      poster: require('../assets/events/Mental Health Talks-mid.png'),
       description: (
         <p>
           Quarantine, in particular, and its impact on many people&#39;s normal activities, habits, or livelihood
@@ -124,7 +114,23 @@ mentally fit and healthy, allowing you to handle emotionally stressful circumsta
         </p>
       )
     },
-    
+    {
+      code: 'hack-3',
+      name: 'Fundraiser',
+      date: 'Please Replace this',
+      //team: '1 member',
+      //prize: <>{Rs()} Please change this</>,
+      registrationFee: 'FREE',
+      organisingSociety: null,
+      registrationLink:
+        'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
+      poster: require('../assets/events/covid.png'),
+      description: (
+        <p>
+          As the second wave of COVID-19 continues to scourge our country, hospitals across India are facing a dire shortage of beds and oxygen cylinders. The safety of people across the country and abroad is a matter of great priority. As young budding engineers and citizens of the country, we have a strong urge to help those in need to our fullest potential. Collaborating with various ISTE chapters throughout the country, we have started a Covid Relief drive to help people in need with the help of social media platforms. We humbly request you to donate, and your little bit for the country.
+        </p>
+      )
+    },
   ],
   das: [
     {
