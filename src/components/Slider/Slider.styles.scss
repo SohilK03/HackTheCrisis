@@ -15,6 +15,10 @@
   padding-top: 40px;
 }
 .society2 {
+  cursor: pointer;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
   padding: 2%;
   margin: 0 10px;
   text-align: center;
@@ -23,6 +27,9 @@
   background-color: #323232;
   border-radius: 10px;
   .image-cont {
+    flex: 70%;
+    display: flex;
+    align-items: center;
     text-align: center;
     img {
       margin: 0 auto;
@@ -30,7 +37,11 @@
     }
   }
   .title-cont {
+    display: flex;
     flex: 30%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    align-items: flex-end;
   }
 }
 .placeholder22 {
@@ -38,17 +49,17 @@
   position: absolute;
   left: 0;
   top: 50px;
-  transform: scale(1,-1);
+  transform: scale(1, -1);
   width: 20%;
 }
 .placeholder23 {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    bottom: 50px;
-    transform: scale(-1,1);
-    width: 20%;
-  }
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  transform: scale(-1, 1);
+  width: 20%;
+}
 @media only screen and (max-width: 425px) {
   .section-heading2 {
     font-size: 2.4rem;
