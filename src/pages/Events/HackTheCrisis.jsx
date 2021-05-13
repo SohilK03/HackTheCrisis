@@ -1,9 +1,9 @@
 import React,{useState} from 'react';
-import { Jumbotron} from 'react-bootstrap';
+import { Container, Jumbotron, Row} from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleDown ,faLink} from '@fortawesome/free-solid-svg-icons';
-
+import Countdown from 'react-countdown';
 
 
 export const HackTheCrisis = ()=>{
@@ -108,6 +108,54 @@ export const HackTheCrisis = ()=>{
     );
   }
 
+  const renderer= ({hours,minutes,seconds,days}) =>{
+    
+    return (
+        <Container>
+            <Row>
+                <div className="col-3 border-right">
+                    <span className="fs-1">{days}</span>
+                    <br/>
+                    <span className="text-muted fs-6">Days</span>
+                </div>
+                <div className="col-3 border-right">
+                    <span className="fs-1">{hours}</span>
+                    <br/>
+                    <span className="text-muted fs-6">Hours</span>
+                </div>
+                <div className="col-3 border-right">
+                    <span className="fs-1">{minutes}</span>
+                    <br/>
+                    <span className="text-muted fs-6">Mins</span>
+                    
+                </div>
+                <div className="col-3">
+                    <span className="fs-1">{seconds}</span>
+                    <br/>
+                    <span className="text-muted fs-6">Secs</span>
+                </div>
+                
+            </Row>
+        </Container>
+    );
+
+  }
+
+  const renderCountDown = ()=>{
+      console.log(Date.UTC(2021,5,20));
+      return (
+      <>
+        <h2 className='section-sub-heading' id="problem-statements">
+           
+            Starts in...
+            
+        </h2>
+        <Countdown date={'2021-05-20T00:00:00'} renderer={renderer}/>
+    </>
+        
+      );
+  }
+
 
 
 
@@ -123,6 +171,7 @@ export const HackTheCrisis = ()=>{
             </Fade>
             
             <div className='section-content'>
+            {renderCountDown()}
             {searchBar()}
             {selectedSection.render}
                 
