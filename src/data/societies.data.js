@@ -9,13 +9,17 @@ export const societies = [
     description: (
       <Fade bottom delay={100}>
         <p>
-          <b> Indian Society for Technical Education (ISTE)</b>
-          is a leading nationally recognized society with its branches in nearly
-          all the technical institutes of the country. It aims at promoting
-          technical and management skills among students. "HackTheCrisis" is a
-          first-time collaboration of six ISTE student chapters from all parts
-          of the country, namely ISTE Thapar Chapter, ISTE BVP, ISTE NITC, ISTE
-          NITH, ISTE Manipal, ISTE MMCOE
+          <b> Indian Society for Technical Education (ISTE), </b>
+          BVP is the non-profit student chapter of Indian Society for Technical
+          Education (ISTE) which was established in Bharati Vidyapeeth College
+          of Engineering in 2011 to advance the education in engineering and
+          technology. In addition to it , ISTE also promotes research, like
+          Electronica, Sahitye and NGO work, Groot in the college. BVP ISTE has
+          constantly strived to achieve its goal of focusing more on practical
+          knowledge and hands-on approach.We have tried to achieve this through
+          various sessions, workshops and competitions in the field of hardware,
+          software and research. As of 2014, the society has more than 300
+          registered members in the college.
         </p>
       </Fade>
     ),
@@ -27,13 +31,15 @@ export const societies = [
     description: (
       <Fade bottom delay={100}>
         <p>
-          <b> Indian Society for Technical Education (ISTE)</b>
-          is a leading nationally recognized society with its branches in nearly
-          all the technical institutes of the country. It aims at promoting
-          technical and management skills among students. "HackTheCrisis" is a
-          first-time collaboration of six ISTE student chapters from all parts
-          of the country, namely ISTE Thapar Chapter, ISTE BVP, ISTE NITC, ISTE
-          NITH, ISTE Manipal, ISTE MMCOE
+          <b> Indian Society for Technical Education (ISTE), </b>
+          Thapar Chapter works with motto of providing a quality learning
+          environment, technical knowledge, wide spectrum of work, helping the
+          students with Personality Development. ISTE TIET has been imparting
+          quality Technical Knowledge by organizing technical Workshops where
+          students get hands on learning experience, Hackathons where students
+          come up with solutions to real-world problem statements, Tech-talks by
+          industry experts,-in its effort to contribute towards the overall
+          development of our Technical Education System.
         </p>
       </Fade>
     ),
@@ -54,7 +60,7 @@ export const societies = [
           every student in a college is as different from other as chalk is from
           cheese. It is no mean task to forge a cohesive team comprising of
           assorted individuals with diverse and probably conflicting personality
-          traits. At ISTE we strive to make it possible
+          traits. At ISTE we strive to make it possible.
         </p>
       </Fade>
     ),
@@ -84,13 +90,16 @@ export const societies = [
     description: (
       <Fade bottom delay={100}>
         <p>
-          <b> Indian Society for Technical Education (ISTE)</b>
-          is a leading nationally recognized society with its branches in nearly
-          all the technical institutes of the country. It aims at promoting
-          technical and management skills among students. "HackTheCrisis" is a
-          first-time collaboration of six ISTE student chapters from all parts
-          of the country, namely ISTE Thapar Chapter, ISTE BVP, ISTE NITC, ISTE
-          NITH, ISTE Manipal, ISTE MMCOE
+          <b> Indian Society for Technical Education (ISTE), </b>A
+          Multi-disciplinary club,is one of the reputed and esteemed Technical
+          Clubs in Manipal. We are well known for hosting ACUMEN, the most
+          popular category in TECHTATVA; and various internal/external
+          workshops, webinars and, summer and winter schools which help in the
+          overall development of our members. We have a wide range of
+          departments and a great level of flexibility within them for our
+          members to learn technical and non-technical skills. We provide a
+          platform for our members to put forward their ideas into
+          implementation.
         </p>
       </Fade>
     ),

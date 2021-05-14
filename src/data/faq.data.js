@@ -1,31 +1,31 @@
 export const FAQData = [
   {
-    question: 'Can I attend multiple events?',
+    question: "Can I attend multiple events?",
     answer:
-      'Yes, one can attend as many events as one wants by registering accordingly.',
-    open: false
+      "Yes, it is possible to attend multiple events as long as the individual is part of the same team. ",
+    open: false,
   },
   {
-    question: 'How would I know my registration has been confirmed?',
+    question: "How would I know my registration has been confirmed?",
     answer:
-      'After you have registered for the event, you will receive a confirmation mail regarding it.',
-    open: false
+      "After you have registered for the event, you will receive a confirmation mail regarding it.",
+    open: false,
   },
   {
-    question: 'Is there any payment for the events?',
+    question: "Is there any payment for the events?",
     answer:
-      'Not all events are paid but there are paid events whose details would be provided in the event description.',
-    open: false
+      "All events organised are completely free of cost and there's no payment required.",
+    open: false,
   },
   {
-    question: 'Which platform to be used?',
-    answer: '"Zoom" is the platform which is going to be used for this event.',
-    open: false
+    question: "What is the deadline for first submission?",
+    answer: "The Date for first submission is 31st of May,2021",
+    open: false,
   },
   {
-    question: 'How to register?',
+    question: "How to register?",
     answer:
-      "Students can register using the platform called 'Commudle', in which the participants will receive a confirmation mail also and they can RSVP and then, send the screenshot at the ID encorebvp@gmail.com",
-    open: false
-  }
+      "Students can register for the event from the Dare2Compete website. For any queries and doubts, you can reach us at hackthecrisis2021@gmail.com",
+    open: false,
+  },
 ];
