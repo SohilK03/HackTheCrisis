@@ -4,7 +4,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import {
-  // faTwitter,
+  faTwitter,
   // faFacebook,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
@@ -24,14 +24,14 @@ const Footer = () => {
   return (
     <section id='footer' className='footer'>
       <div className='social-icons'>
-        {/* <a
-          href='https://twitter.com/BvpEncore'
+        <a
+          href=' https://twitter.com/HackTheCrisis1'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
         >
           <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
-        </a> */}
+        </a>
         <a
           href='https://www.instagram.com/hack_the_crisis_/'
           className='social-link'

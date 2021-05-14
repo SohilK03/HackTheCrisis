@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import video from "../../assets/video/teaser.mp4";
-import poster from "../../assets/encore-logo/Apo llo (1).svg";
+import poster from "../../assets/encore-logo/Apollo(1).svg";
 
 import "./Hero.styles.scss";
 
