@@ -1,11 +1,11 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 export const societies = [
   {
-    key: "1",
-    name: "ISTE-BVP",
-    logo: require("../assets/societies/bvp-iste.png"),
+    key: '1',
+    name: 'ISTE-BVP',
+    logo: require('../assets/societies/bvp-iste.png'),
     description: (
       <Fade bottom delay={100}>
         <p>
@@ -19,11 +19,13 @@ export const societies = [
         </p>
       </Fade>
     ),
+    instagramURL: 'https://www.instagram.com/bvpiste/?igshid=1rf0r8ll05ct7',
+    linkedInURL: 'https://www.linkedin.com/company/bvpiste/about/',
   },
   {
-    key: "2",
-    name: "ISTE-TIET",
-    logo: require("../assets/societies/thapar-iste.png"),
+    key: '2',
+    name: 'ISTE-TIET',
+    logo: require('../assets/societies/thapar-iste.png'),
     description: (
       <Fade bottom delay={100}>
         <p>
@@ -37,11 +39,13 @@ export const societies = [
         </p>
       </Fade>
     ),
+    linkedInURL: 'https://www.linkedin.com/company/iste-thapar-chapter/',
+    instagramURL: 'https://www.instagram.com/iste_tiet/',
   },
   {
-    key: "3",
-    name: "ISTE-NITH",
-    logo: require("../assets/societies/NitH-iste.png"),
+    key: '3',
+    name: 'ISTE-NITH',
+    logo: require('../assets/societies/NitH-iste.png'),
     description: (
       <Fade bottom delay={100}>
         <p>
@@ -58,11 +62,16 @@ export const societies = [
         </p>
       </Fade>
     ),
+
+    linkedInURL:
+      'https://www.linkedin.com/company/iste-nith/?originalSubdomain=in',
+    instagramURL: 'https://www.instagram.com/teamistenith/?hl=en',
+    twitterURL: 'https://twitter.com/istenith',
   },
   {
-    key: "4",
-    name: "ISTE-NITC",
-    logo: require("../assets/societies/NitC-iste.png"),
+    key: '4',
+    name: 'ISTE-NITC',
+    logo: require('../assets/societies/NitC-iste.png'),
     description: (
       <Fade bottom delay={100}>
         <p>
@@ -76,11 +85,15 @@ export const societies = [
         </p>
       </Fade>
     ),
+
+    linkedInURL: 'https://www.linkedin.com/company/iste-nitc',
+    instagramURL: 'https://instagram.com/iste_nitc?igshid=fksbgighrmr7',
+    twitterURL: 'https://twitter.com/iste_nitc?s=08',
   },
   {
-    key: "5",
-    name: "ISTE-MANIPAL",
-    logo: require("../assets/societies/manipal-iste.jpg.png"),
+    key: '5',
+    name: 'ISTE-MANIPAL',
+    logo: require('../assets/societies/manipal-iste.jpg.png'),
     description: (
       <Fade bottom delay={100}>
         <p>
@@ -94,5 +107,10 @@ export const societies = [
         </p>
       </Fade>
     ),
+
+    linkedInURL:
+      'https://www.linkedin.com/company/iste-manipal/?originalSubdomain=in',
+    instagramURL: 'https://www.instagram.com/istemanipal/',
+    twitterURL: 'https://www.linkedin.com/in/eeshita-gupta-6b072a171/',
   },
 ];

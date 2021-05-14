@@ -25,7 +25,7 @@ const Partners = ({ history }) => {
         {PARTNER_TYPE.map((type) => (
           <div className={`${type}-container partner-container`}>
             <h2 className='heading'>{type.toUpperCase()} SPONSERS</h2>
-            {console.log(type)}
+            {/* {console.log(type)} */}
             <div className='partners-container'>
               {partners
                 .filter((partner) => partner.type === type)
