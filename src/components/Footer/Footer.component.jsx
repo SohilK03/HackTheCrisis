@@ -4,9 +4,9 @@ import { animateScroll as scroll } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import {
-  // faTwitter,
+  faTwitter,
   // faFacebook,
-  faInstagram
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
 import './Footer.styles.scss';
@@ -16,7 +16,7 @@ const Footer = () => {
     ReactGA.event({
       category: "'External Link' Clicks",
       action: "ISTE's website opened",
-      label: 'Website opened from footer credits link'
+      label: 'Website opened from footer credits link',
     });
     window.open('http://www.bvpiste.tech/', '_blank');
   };
@@ -24,14 +24,14 @@ const Footer = () => {
   return (
     <section id='footer' className='footer'>
       <div className='social-icons'>
-        {/* <a
-          href='https://twitter.com/BvpEncore'
+        <a
+          href='https://twitter.com/HackTheCrisis1'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
         >
           <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
-        </a> */}
+        </a>
         <a
           href='https://www.instagram.com/hack_the_crisis_/'
           className='social-link'
