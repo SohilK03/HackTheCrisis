@@ -25,11 +25,7 @@ const Footer = () => {
     <section id='footer' className='footer'>
       <div className='social-icons'>
         <a
-<<<<<<< HEAD
-          href='https://twitter.com/HackTheCrisis1'
-=======
           href=' https://twitter.com/HackTheCrisis1'
->>>>>>> 0671e394295ebe2b37d414bb547ed7000d6503cb
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
