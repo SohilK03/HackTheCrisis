@@ -14,18 +14,18 @@ export const FAQData = [
   {
     question: 'Is there any payment for the events?',
     answer:
-      'Not all events are paid but there are paid events whose details would be provided in the event description.',
+      'There is no registration fee.',
     open: false
   },
   {
-    question: 'Which platform to be used?',
-    answer: '"Zoom" is the platform which is going to be used for this event.',
+    question: 'When is the last date to submit the idea?',
+    answer: 'All submissions before 31st are valid.',
     open: false
   },
   {
     question: 'How to register?',
     answer:
-      "Students can register using the platform called 'Commudle', in which the participants will receive a confirmation mail also and they can RSVP and then, send the screenshot at the ID encorebvp@gmail.com",
+      "Students can register using the platform called 'D2C' in which the participants will receive a confirmation mail. For queries you can reach out to us at hackthecrisis2021@gmail.com",
     open: false
   }
 ];
