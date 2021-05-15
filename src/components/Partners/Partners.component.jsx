@@ -6,6 +6,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import { partners, PARTNER_TYPE } from '../../data/partners.data';
 
 import './Partners.styles.scss';
+import placeholder_2 from '../../assets/about-section/placeholder_2.svg';
 
 const Partners = ({ history }) => {
   useEffect(() => {
@@ -18,6 +19,8 @@ const Partners = ({ history }) => {
 
   return (
     <section id='partners' className='section section-partners'>
+      <img className='placeholder_2-left' alt={'pb2'} src={placeholder_2} />
+      <img className='placeholder_2-right' alt={'pb2'} src={placeholder_2} />
       <Fade bottom>
         <h1 className='section-heading'>Partners</h1>
       </Fade>
@@ -30,15 +33,21 @@ const Partners = ({ history }) => {
               {partners
                 .filter((partner) => partner.type === type)
                 .map((partner) => (
-                  <div
-                    key={partner.key}
+                  // <div
+                  //   key={partner.key}
+                  //   className='partner-image'
+                  //   onClick={() => onClickHandler(partner.route)}
+                  // >
+                  <a
+                    href={partner.website}
+                    target='__blank'
                     className='partner-image'
-                    onClick={() => onClickHandler(partner.route)}
                   >
                     <Fade bottom delay={200}>
                       <img src={partner.image} alt='partner' />
                     </Fade>
-                  </div>
+                  </a>
+                  // </div>
                 ))}
             </div>
           </div>

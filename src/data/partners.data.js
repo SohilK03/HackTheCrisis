@@ -1,44 +1,194 @@
 export const partners = [
   {
     key: '1',
-    route: 'pixahive',
-    name: 'PixaHive',
-    website: 'https://pixahive.com',
-    image: require('../assets/partners/partner-1.jpeg'),
-    description:
-      'PixaHive help photographers build a portoflio to impress and get jobs. This platfom also help users and small business get high-quality images for free.',
-    type: 'platinum',
+    // route: 'pixahive',
+    name: 'REPL IT',
+    website: 'https://replit.com/',
+    image: require('../assets/partners/replit-logo.png'),
+    // description:
+    //   'PixaHive help photographers build a portoflio to impress and get jobs. This platfom also help users and small business get high-quality images for free.',
+    type: 'silver',
   },
   {
     key: '2',
-    route: 'commudle',
-    name: 'Commudle',
-    website: 'https://commudle.com',
-    image: require('../assets/partners/partner-2.jpeg'),
-    description:
-      'This is a community management platform for Tech Communities across the world. The inspiration being the personal experiences of Community Organizers.',
-    type: 'platinum',
+    // route: 'commudle',
+    name: 'EDUVANTAGE BOX',
+    website: 'https://www.eduvantagebox.com/',
+    image: require('../assets/partners/eduvantage.png'),
+    // description:
+    //   'This is a community management platform for Tech Communities across the world. The inspiration being the personal experiences of Community Organizers.',
+    type: 'gold',
   },
   {
     key: '3',
-    route: 'ipubuzz',
-    name: 'IPU Buzz',
-    website: 'https://ipubuzz.com',
-    image: require('../assets/partners/partner-3.jpeg'),
-    description:
-      "IPU Buzz is GGSIPU's Largest Student-Run Media Platform. Started in 2018, IPU BUZZ is an independent news and media space run by a team of students. From the day we started, it was our aim to bring a cultural transformation in Guru Gobind Singh Indraprastha University (GGSIPU). From all the happenings around the university to all the concerns pertaining to the students, we cover it all.",
-    type: 'gold',
+    // route: 'ipubuzz',
+    name: 'BADELOG',
+    website: 'https://badelog.in/',
+    image: require('../assets/partners/BadeLog.jpg'),
+    // description:
+    //   "IPU Buzz is GGSIPU's Largest Student-Run Media Platform. Started in 2018, IPU BUZZ is an independent news and media space run by a team of students. From the day we started, it was our aim to bring a cultural transformation in Guru Gobind Singh Indraprastha University (GGSIPU). From all the happenings around the university to all the concerns pertaining to the students, we cover it all.",
+    type: 'silver',
   },
   {
     key: '4',
-    route: 'geeksforgeeks',
-    name: 'GeeksForGeeks',
-    website: 'https://www.geeksforgeeks.org',
-    image: require('../assets/partners/partner-4.jpeg'),
-    description:
-      'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    // route: 'geeksforgeeks',
+    name: 'PREPBYTES',
+    website: 'https://www.prepbytes.com/',
+    image: require('../assets/partners/PrepBytes_Logo_1.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'platinum',
+  },
+  {
+    key: '5',
+    // route: 'geeksforgeeks',
+    name: 'HOVERROBOTIX',
+    website: 'https://hoverrobotix.com/',
+    image: require('../assets/partners/hoverrobotix.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
     type: 'gold',
+  },
+  {
+    key: '6',
+    // route: 'geeksforgeeks',
+    name: 'WRAPCART',
+    website: 'https://www.wrapcart.com/',
+    image: require('../assets/partners/8959_logo_WrapCart_Logo_BlueTech.jpg'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '7',
+    // route: 'geeksforgeeks',
+    name: 'WANDERLOOMS',
+    website: 'https://www.wanderlooms.com/',
+    image: require('../assets/partners/Wanderlooms_black_grande.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '8',
+    // route: 'geeksforgeeks',
+    name: 'GRABON',
+    website: 'https://www.grabon.in/',
+    image: require('../assets/partners/grabon.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '9',
+    // route: 'geeksforgeeks',
+    name: 'FRAMER',
+    website: 'https://www.framer.com/',
+    image: require('../assets/partners/framer-thumb.svg'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '10',
+    // route: 'geeksforgeeks',
+    name: 'NOSTARCH',
+    website: 'https://nostarch.com/',
+    image: require('../assets/partners/nostarch.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '11',
+    // route: 'geeksforgeeks',
+    name: 'JETBRAINS',
+    website: 'https://www.jetbrains.com/',
+    image: require('../assets/partners/jetbrains_logo.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '12',
+    // route: 'geeksforgeeks',
+    name: 'CODE FOR CAUSE',
+    website: 'https://codeforcause.org/',
+    image: require('../assets/partners/cfc.jpg'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'gold',
+  },
+  {
+    key: '13',
+    // route: 'geeksforgeeks',
+    name: 'LINODE',
+    website: 'https://www.linode.com/',
+    image: require('../assets/partners/linode.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '14',
+    // route: 'geeksforgeeks',
+    name: 'BALSAMIQ',
+    website: 'https://balsamiq.com/',
+    image: require('../assets/partners/balsamiq.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '15',
+    // route: 'geeksforgeeks',
+    name: '1PASSWORD',
+    website: 'https://1password.com/',
+    image: require('../assets/partners/1password.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '16',
+    // route: 'geeksforgeeks',
+    name: 'EGGHEAD',
+    website: 'https://egghead.io/',
+    image: require('../assets/partners/egghead.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '17',
+    // route: 'geeksforgeeks',
+    name: 'CODING BLOCKS',
+    website: 'https://codingblocks.com/',
+    image: require('../assets/partners/CODINGBLOCKS .png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'gold',
+  },
+  {
+    key: '18',
+    // route: 'geeksforgeeks',
+    name: 'ECHOAR',
+    website: 'https://www.echoar.xyz/',
+    image: require('../assets/partners/echoAR.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'gold',
+  },
+  {
+    key: '19',
+    // route: 'geeksforgeeks',
+    name: 'PHARMEASY',
+    website: 'https://pharmeasy.in/',
+    image: require('../assets/partners/pharmeasy.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
   },
 ];
 
-export const PARTNER_TYPE = ['platinum', 'gold'];
+export const PARTNER_TYPE = ['platinum', 'gold', 'silver'];
