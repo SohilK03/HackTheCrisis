@@ -29,7 +29,7 @@ const AboutUs = () => {
       <h1 data-aos="fade-down" className="section-heading">
         About
       </h1>
-
+<br/>
       <div className="section-content">
         <div className="info">
           <p data-aos="zoom-in">

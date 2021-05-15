@@ -9,10 +9,7 @@ const Event = ({ event,index }) => {
     code,
     name,
     date,
-    team,
-    prize,
-    registrationFee,
-    organisingSociety,
+    team,    
     registrationLink,
     poster,
     description
@@ -55,34 +52,15 @@ const Event = ({ event,index }) => {
               <span className='underline'>{date}</span>
             </p>
           </Fade>
-          {organisingSociety && (
-            <Fade bottom delay={500}>
-              <p>
-                <span>Organising Society: </span>
-                <span className='underline'>{organisingSociety}</span>
-              </p>
-            </Fade>
-          )}
+          
           <Fade bottom delay={400}>
             <p>
               <span>Team Size: </span>
               <span className='underline'>{team}</span>
             </p>
           </Fade>
-          {prize && (
-            <Fade bottom delay={400}>
-              <p>
-                <span>Prize Money: </span>
-                <span className='underline'>{prize}</span>
-              </p>
-            </Fade>
-          )}
-          <Fade bottom delay={400}>
-            <p>
-              <span>Registration Fee: </span>
-              <span className='underline'>{registrationFee}</span>
-            </p>
-          </Fade>
+         
+                  
           <Fade bottom delay={600}>
             <p>
               <span>To Register: </span>

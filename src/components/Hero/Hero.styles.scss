@@ -1,6 +1,6 @@
 .section-hero {
   padding: 0 !important;
-  background-color: #212121 !important;
+  background-color: #000000 !important;
   width: auto !important;
   height: 760px !important;
   display: flex;
@@ -47,10 +47,10 @@ overflow-x: hidden;
       width: 60%;
       margin-top: -20px;
 
-      video {
+     // video {
         
         // padding: 100px 0;
-      }
+     // }
     }
   }
 
@@ -60,9 +60,9 @@ overflow-x: hidden;
     .logo-container {
       width: 90%;
 
-      video {
+      //video {
         // padding: 150px 0;
-      }
+      //}
     }
 
     .hero-heading {
