@@ -36,7 +36,7 @@ const Partners = ({ history }) => {
                   // <div
                   //   key={partner.key}
                   //   className='partner-image'
-                  //   onClick={() => onClickHandler(partner.route)}
+                  //   
                   // >
                   <a
                     href={partner.website}
@@ -44,7 +44,7 @@ const Partners = ({ history }) => {
                     className='partner-image'
                   >
                     <Fade bottom delay={200}>
-                      <img src={partner.image} alt='partner' />
+                      <img src={partner.image} alt='partner' onClick={() => onClickHandler(partner.route)} />
                     </Fade>
                   </a>
                   // </div>
