@@ -160,7 +160,7 @@ export const HackTheCrisis = () => {
         <h2 className='section-sub-heading' id='problem-statements'>
           Starts in...
         </h2>
-        <Countdown date={'2021-05-20T00:00:00'} renderer={renderer} />
+        <Countdown date={'2021-06-01T00:00:00'} renderer={renderer} />
       </>
     );
   };
