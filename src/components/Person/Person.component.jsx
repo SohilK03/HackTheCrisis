@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTwitter,
   faLinkedinIn,
-  faInstagram
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
 import DisplayImagePlaceholder from '../../assets/team/placeholder.png';
@@ -12,16 +12,17 @@ import './Person.styles.scss';
 
 const Person = ({ member }) => {
   const {
+    key,
     name,
     position,
     displayPicSrc,
     linkedInURL,
     instagramURL,
-    twitterURL
+    twitterURL,
   } = member;
 
   return (
-    <div className='member'>
+    <div className={`member member-${key}`}>
       <div className='img-container'>
         <div className='display-pic'>
           {displayPicSrc ? (
@@ -41,10 +42,7 @@ const Person = ({ member }) => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FontAwesomeIcon
-              icon={faLinkedinIn}
-              className='icon linkedin'
-            />
+            <FontAwesomeIcon icon={faLinkedinIn} className='icon linkedin' />
           </a>
         )}
         {instagramURL && (

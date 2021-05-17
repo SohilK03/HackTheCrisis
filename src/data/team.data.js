@@ -137,5 +137,25 @@ export const TeamData = {
 
       displayPicSrc: require('../assets/team/vaibhav-gupta.jpeg'),
     },
+
+    {
+      key: '16',
+      name: 'Aniket Sahran',
+      position: 'Graphic Designer',
+      linkedInURL: 'https://www.linkedin.com/in/aniket-sahran-453586201/',
+      instagramURL: 'https://www.instagram.com/aniketsahran/',
+
+      displayPicSrc: require('../assets/team/aniket.jpeg'),
+    },
+
+    {
+      key: '17',
+      name: 'Inaayat Goyal',
+      position: 'Marketing',
+      linkedInURL: 'https://www.linkedin.com/in/inaayat-goyal-05a592192',
+      instagramURL: 'https://www.instagram.com/inaayat_goyal/',
+
+      displayPicSrc: require('../assets/team/inaayat-goyal.jpeg'),
+    },
   ],
 };
