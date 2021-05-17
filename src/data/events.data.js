@@ -44,13 +44,13 @@ export const events = {
     {
       code: 'hack-2',
       name: 'Mental Health Talks',
-      date: '26th May, 2019',
+      date: '26th May, 2021',
       team: '1 member',
       //prize: <>{Rs()} Please change this</>,
       registrationFee: 'FREE',
 
       registrationLink:
-        'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
+        'https://dare2compete.com/o/mental-health-talks-iste-bvptietnitcnithmanipal-165739',
       poster: require('../assets/events/Mental Health Talks-mid.png'),
       description: (
         <p>
