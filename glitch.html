@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="theme-color" content="#ededed" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Official HackTheCrisis 2021 Website" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="canonical" href="https://encore-fest.now.sh" />
+    <meta name="url" content="https://encore-fest.now.sh" />
+    <meta name="description" content="HackTheCrisis 2021 Hackathon" />
+    <meta name="image" content="https://encore-fest.now.sh/logo.png" />
+
+    <meta property="og:site_name" content="Official HackTheCrisis 2021 Website" />
+    <meta property="og:url" content="https://encore-fest.now.sh" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HackTheCrisis 2021" />
+    <meta property="og:description" content="HackTheCrisis 2021 Hackathon" />
+    <meta property="og:image" content="https://encore-fest.now.sh/logo.png" />
+
+    <meta name="twitter:creator" content="@khattarsohil" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@hackthecrisis" />
+    <meta name="twitter:title" content="HackTheCrisis 2021" />
+    <meta name="twitter:description" content="HackTheCrisis 2021 Hackathon" />
+    <meta name="twitter:image" content="https://encore-fest.now.sh/logo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="google-site-verification"
+      content="USA5XoxN1Z5gQJGHGBOA4cWs320qDegbzaaXh-AZBpE"
+    />
+
+    <style>
+        #initial-loading {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: 	#28282B;
+          transition: opacity 0.6s;
+          z-index: 1;
+        }
+  
+        #initial-loading[data-is-hide='true'] {
+          opacity: 0;
+          pointer-events: none;
+        }
+  
+        #initial-loading .spinner {
+          display: flex;
+        }
+  
+        #initial-loading .bounce {
+          width: 18px;
+          height: 18px;
+          margin: 0 3px;
+          background-color: #999999;
+          border-radius: 100%;
+          display: inline-block;
+          -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+          animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        }
+  
+        #initial-loading .bounce:nth-child(1) {
+          -webkit-animation-delay: -0.32s;
+          animation-delay: -0.32s;
+        }
+  
+        #initial-loading .bounce:nth-child(2) {
+          -webkit-animation-delay: -0.16s;
+          animation-delay: -0.16s;
+        }
+  
+        @-webkit-keyframes sk-bouncedelay {
+          0%,
+          80%,
+          100% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+          }
+  
+          40% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+          }
+        }
+  
+        @keyframes sk-bouncedelay {
+          0%,
+          80%,
+          100% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+          }
+  
+          40% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+          }
+        }
+        body {
+  background: #222;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.glitch {
+  font-size: 8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+  animation: glitch 500ms infinite;
+}
+
+.glitch span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glitch span:first-child {
+  animation: glitch 650ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  transform: translate(-0.025em, -0.0125em);
+  /* color: green; */
+  opacity: 0.8;
+}
+
+.glitch span:last-child {
+  animation: glitch 375ms infinite;
+  clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+  transform: translate(0.0125em, 0.025em);
+  /* color: red; */
+  opacity: 0.8;
+}
+
+/* https://web.dev/prefers-reduced-motion/#(bonus)-forcing-reduced-motion-on-all-websites */
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+@media(max-width:680px){
+  .glitch{
+    font-size:7rem;
+  }
+}
+      </style>
+</head>
+<body>
+    <div id="root">
+        <div id="initial-loading">
+          <h1 class="glitch">
+            <span aria-hidden="true">Hack The Crisis</span>
+            Hack The Crisis
+            <span aria-hidden="true">Hack The Crisis</span>
+          </h1>
+
+          <div class="logo">
+            
+          </div>
+        </div>
+      </div>
+</body>
+</html>
