@@ -157,5 +157,14 @@ export const TeamData = {
 
       displayPicSrc: require('../assets/team/inaayat-goyal.jpeg'),
     },
+    {
+      key: '18',
+      name: 'Shradha Bansal',
+      position: 'MDocumentation Head',
+      linkedInURL: 'https://www.linkedin.com/in/inaayat-goyal-05a592192',
+      instagramURL: 'https://www.instagram.com/shradha_bansal_/',
+
+      displayPicSrc: require('../assets/team/shradha_bansal.jpeg'),
+    },
   ],
 };
