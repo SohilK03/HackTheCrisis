@@ -189,6 +189,97 @@ export const partners = [
     //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
     type: 'silver',
   },
+  {
+    key: '20',
+    // route: 'geeksforgeeks',
+    name: 'GEEKSFORGEEKS',
+    website: 'https://www.geeksforgeeks.org/',
+    image: require('../assets/partners/geeksforgeeks.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'gold',
+  },
+  {
+    key: '21',
+    // route: 'geeksforgeeks',
+    name: 'TASKADE',
+    website: 'https://www.taskade.com/',
+    image: require('../assets/partners/taskade.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '22',
+    // route: 'geeksforgeeks',
+    name: 'INTERVIEW CAKE',
+    website: 'https://www.interviewcake.com/',
+    image: require('../assets/partners/interview-cake.jpg'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '23',
+    // route: 'geeksforgeeks',
+    name: 'SCRIPT FOUNDATION',
+    website: 'https://www.scriptindia.org/',
+    image: require('../assets/partners/script-foundation.webp'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '24',
+    // route: 'geeksforgeeks',
+    name: 'XYZ',
+    website: 'https://gen.xyz/',
+    image: require('../assets/partners/1200px-.xyz_logo.svg.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '25',
+    // route: 'geeksforgeeks',
+    name: 'WOLFRAM',
+    website: 'https://www.wolfram.com/',
+    image: require('../assets/partners/wolfram.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'gold',
+  },
+  {
+    key: '26',
+    // route: 'geeksforgeeks',
+    name: 'HOMEFLICK WEGROW',
+    website: 'https://www.homeflicwegrow.com/',
+    image: require('../assets/partners/homeflic-wegrow.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+
+  {
+    key: '27',
+    // route: 'geeksforgeeks',
+    name: 'GIVE MY CERTIFICATE',
+    website: 'https://www.givemycertificate.com/',
+    image: require('../assets/partners/give-my-certificate.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'silver',
+  },
+  {
+    key: '28',
+    // route: 'geeksforgeeks',
+    name: 'CONVOCARE',
+    website: 'https://www.convocare.in/',
+    image: require('../assets/partners/convo-care.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'health',
+  },
 ];
 
-export const PARTNER_TYPE = ['platinum', 'gold', 'silver'];
+export const PARTNER_TYPE = ['platinum', 'gold', 'silver', 'health'];
