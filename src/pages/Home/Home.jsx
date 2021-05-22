@@ -10,6 +10,7 @@ import FAQs from "../../components/FAQs/FAQs.component";
 import Team from "../../components/Team/Team.component";
 import Contact from "../../components/Contact/Contact.component";
 import Slider from "../../components/Slider/Slider";
+import Winners from "../../components/Winners/Winners";
 import "./Home.styles.scss";
 
 const Home = () => {
@@ -28,8 +29,8 @@ const Home = () => {
       <Partners />
       <FAQs />
       <Team />
+      <Winners />
       <Contact />
-      
     </div>
   );
 };
