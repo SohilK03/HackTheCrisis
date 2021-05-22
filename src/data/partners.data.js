@@ -275,7 +275,7 @@ export const partners = [
     // route: 'geeksforgeeks',
     name: 'CONVOCARE',
     website: 'https://www.convocare.in/',
-    image: require('../assets/partners/convo-care.png'),
+    image: require('../assets/partners/convo-care-img.png'),
     // description:
     //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
     type: 'health',
