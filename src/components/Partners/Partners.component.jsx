@@ -27,7 +27,7 @@ const Partners = ({ history }) => {
       <div className='section-content'>
         {PARTNER_TYPE.map((type) => (
           <div className={`${type}-container partner-container`}>
-            <h2 className='heading'>{type.toUpperCase()} SPONSERS</h2>
+            <h2 className='heading'>{type.toUpperCase()} SPONSORS</h2>
             {/* {console.log(type)} */}
             <div className='partners-container'>
               {partners
@@ -36,7 +36,7 @@ const Partners = ({ history }) => {
                   // <div
                   //   key={partner.key}
                   //   className='partner-image'
-                  //   
+                  //
                   // >
                   <a
                     href={partner.website}
@@ -44,7 +44,11 @@ const Partners = ({ history }) => {
                     className='partner-image'
                   >
                     <Fade bottom delay={200}>
-                      <img src={partner.image} alt='partner' onClick={() => onClickHandler(partner.route)} />
+                      <img
+                        src={partner.image}
+                        alt='partner'
+                        onClick={() => onClickHandler(partner.route)}
+                      />
                     </Fade>
                   </a>
                   // </div>
