@@ -76,5 +76,5 @@ npm start
  ┗ 📜index.js
 ```
 
-### Original Author : @dakshkhetan
+### Original Author : <a href='https://github.com/dakshkhetan'> @dakshkhetan </a>
 <!-- new commit -->
