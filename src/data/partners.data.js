@@ -280,6 +280,22 @@ export const partners = [
     //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
     type: 'health',
   },
+  {
+    key: '28',
+    // route: 'geeksforgeeks',
+    name: 'GITHUB',
+    website: 'https://github.com/',
+    image: require('../assets/partners/GitHub.png'),
+    // description:
+    //   'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.',
+    type: 'associate',
+  },
 ];
 
-export const PARTNER_TYPE = ['platinum', 'gold', 'silver', 'health'];
+export const PARTNER_TYPE = [
+  'platinum',
+  'gold',
+  'silver',
+  'health',
+  'associate',
+];
