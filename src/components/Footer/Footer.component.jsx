@@ -21,6 +21,15 @@ const Footer = () => {
     window.open('http://www.bvpiste.tech/', '_blank');
   };
 
+  const onClickHandlerAuthor = () => {
+    ReactGA.event({
+      category: "'External Link' Clicks",
+      action: "Daksh's website opened",
+      label: 'Website opened from footer credits link',
+    });
+    window.open('https://dakshkhetan.now.sh', '_blank');
+  };
+
   return (
     <section id='footer' className='footer'>
       <div className='social-icons'>
@@ -59,11 +68,27 @@ const Footer = () => {
         Powered by <a href='http://encore-fest.now.sh/'>Hack The Crisis</a>. All
         rights reserved.
       </p>
-      <span className='sub-heading credit' onClick={onClickHandler}>
-        Designed & developed by{' '}
-        <span className='credit-link underline'> {''}ISTE</span>
+
+      <span
+        className='sub-heading credit author'
+        onClick={onClickHandlerAuthor}
+      >
+        Orginally designed & developed by{' '}
+        <span
+          className='underline'
+          style={{ marginLeft: '4px', cursor: 'pointer' }}
+        >
+          Daksh Khetan
+        </span>
       </span>
-      <p className='design-credits'>©Daksh Ketan</p>
+
+      <span
+        className='sub-heading credit'
+        style={{ fontSize: '1rem' }}
+        onClick={onClickHandler}
+      >
+        Revised by <span className='credit-link underline'>ISTE</span>
+      </span>
     </section>
   );
 };
