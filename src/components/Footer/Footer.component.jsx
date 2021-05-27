@@ -6,7 +6,7 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import {
   // faTwitter,
   // faFacebook,
-  faInstagram
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
 import './Footer.styles.scss';
@@ -16,7 +16,7 @@ const Footer = () => {
     ReactGA.event({
       category: "'External Link' Clicks",
       action: "ISTE's website opened",
-      label: 'Website opened from footer credits link'
+      label: 'Website opened from footer credits link',
     });
     window.open('http://www.bvpiste.tech/', '_blank');
   };
@@ -61,8 +61,9 @@ const Footer = () => {
       </p>
       <span className='sub-heading credit' onClick={onClickHandler}>
         Designed & developed by{' '}
-        <span className='credit-link underline'>ISTE</span>
+        <span className='credit-link underline'> {''}ISTE</span>
       </span>
+      <p className='design-credits'>©Daksh Ketan</p>
     </section>
   );
 };
